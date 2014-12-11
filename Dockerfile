@@ -27,6 +27,9 @@ RUN	apt-get update && \
 		perl \
 		make \
 		vim
+
+WORKDIR	/usr/src
+
 RUN	git clone http://github.com/dataseries/Lintel.git
 RUN	git clone http://github.com/dataseries/DataSeries.git
 RUN	mkdir -p build/Lintel build/DataSeries
