@@ -1,0 +1,27 @@
+<ExtentType name="weblog" namespace="digitalgarden.no" version="1.0">
+  <field type="int32"      name="ts"                                 />
+  <field type="variable32" name="server_id"        pack_unique="yes" />
+  <field type="variable32" name="site_id"          pack_unique="yes" />
+  <field type="variable32" name="hdr_host"         pack_unique="yes" />
+  <field type="variable32" name="src_addr"         pack_unique="yes" />
+  <field type="variable32" name="request_method"   pack_unique="yes" />
+  <field type="variable32" name="request_uri"      pack_unique="yes" />
+  <field type="variable32" name="request_args"     pack_unique="yes" />
+  <field type="variable32" name="protocol_version" pack_unique="yes" />
+  <field type="variable32" name="user_agent"       pack_unique="yes" />
+  <field type="variable32" name="referer"          pack_unique="yes" />
+  <field type="int32"      name="status_code"                        />
+  <field type="int32"      name="request_size"                       />
+  <field type="int32"      name="request_time"                       />
+  <field type="variable32" name="query_string"     pack_unique="yes" />
+  <field type="variable32" name="geoip_country"    pack_unique="yes" />
+  <field type="variable32" name="geoip_city"       pack_unique="yes" />
+  <field type="variable32" name="ua_type"          pack_unique="yes" />
+  <field type="variable32" name="ua_name"          pack_unique="yes" />
+  <field type="variable32" name="ua_family"        pack_unique="yes" />
+  <field type="variable32" name="ua_producer"      pack_unique="yes" />
+  <field type="variable32" name="os_name"          pack_unique="yes" />
+  <field type="variable32" name="os_family"        pack_unique="yes" />
+  <field type="variable32" name="os_producer"      pack_unique="yes" />
+  <field type="variable32" name="device"           pack_unique="yes" />
+</ExtentType>
